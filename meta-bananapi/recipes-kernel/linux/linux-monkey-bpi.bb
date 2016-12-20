@@ -22,3 +22,4 @@ S = "${WORKDIR}/git"
 #fix QA issue "Files/directories were installed but not shipped: /usr/src/debug"
 INHIBIT_PACKAGE_DEBUG_SPLIT = "1"
 
+RM_WORK_EXCLUDE += "linux-monkey-bpi"
